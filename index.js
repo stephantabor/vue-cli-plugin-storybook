@@ -28,7 +28,7 @@ module.exports = (api, { pluginOptions = {} }) => {
     server.buildDev({
       packageJson: {
         name: '@storybook/vue',
-        version: '^4.1.0',
+        version: '4.2.0-alpha.11',
       },
       frameworkPresets: [
         {
@@ -52,7 +52,7 @@ module.exports = (api, { pluginOptions = {} }) => {
     server.buildStatic({
       packageJson: {
         name: '@storybook/vue',
-        version: '^4.1.0',
+        version: '4.2.0-alpha.11',
       },
       frameworkPresets: [
         {
